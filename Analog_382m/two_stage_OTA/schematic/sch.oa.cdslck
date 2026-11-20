@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      mgc2897
+HostName                       daisy.ece.utexas.edu
+ProcessIdentifier              938667
+ProcessCreationTime_UTC        1795206430
+ProcessCreationTime_Readable   Fri Nov 20 14:27:10 2026 CST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/ecelrc/students/mgc2897/ECE382M/Analog_382m/Analog_382m/two_stage_OTA/schematic/sch.oa.cdslck
+TimeEditLocked                 Fri Nov 20 14:45:22 2026 CST
