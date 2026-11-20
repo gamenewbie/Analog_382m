@@ -4,13 +4,13 @@
 # Information about current Edit Lock Owner.
 #
 LockStakeVersion               1.1
-LoginName                      mgc2897
-HostName                       daisy.ece.utexas.edu
-ProcessIdentifier              938667
-ProcessCreationTime_UTC        1795206430
-ProcessCreationTime_Readable   Fri Nov 20 14:27:10 2026 CST
-AppIdentifier                  OA File System Design Manager
-OSType                         unix
-ReasonForPlacingEditLock       OpenAccess edit lock
-FilePathUsedToEditLock         /home/ecelrc/students/mgc2897/ECE382M/Analog_382m/Analog_382m/two_stage_OTA/schematic/sch.oa.cdslck
-TimeEditLocked                 Fri Nov 20 15:22:22 2026 CST
+LoginName                      kz5348
+HostName                       kamek.ece.utexas.edu
+ProcessIdentifier              2088018
+ProcessCreationTime_UTC        1795206688
+ProcessCreationTime_Readable   Fri Nov 20 14:31:28 2026 CST
+AppIdentifier                  /usr/local/packages/cadence_2022/IC618/tools.lnx86/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       Deleting
+FilePathUsedToEditLock         /home/ecelrc/students/kz5348/Analog_382m/Analog_382m/two_stage_OTA/schematic/sch.oa
+TimeEditLocked                 Fri Nov 20 15:36:37 2026 CST
