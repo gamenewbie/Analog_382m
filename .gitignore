@@ -1,2 +1,3 @@
-CDS.log* *.cdslck *.cdslck.* *~
+*.cdslck
+*.cdslck.*
 /simulation/
