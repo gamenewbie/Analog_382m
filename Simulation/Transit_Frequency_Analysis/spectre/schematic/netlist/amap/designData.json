@@ -1,0 +1,1 @@
+{"hierarchy":{"top_level":1,"1":{"insts":{"V2":2,"V1":2,"V3":2,"V0":2,"V4":2,"M0":3,"M1":4}}},"modelMap":{"pch":[4],"vsource":[2],"nch":[3]},"cellviews":[["Analog_382m","Transit_Frequency_Analysis","schematic"],["analogLib","vdc","spectre"],["analogLib","nmos4","spectre"],["analogLib","pmos4","spectre"]]}

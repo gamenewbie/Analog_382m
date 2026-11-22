@@ -1,0 +1,18 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "Transit_Frequency_Analysis"
+  repList "spectre cmos_sch cmos.sch schematic veriloga"
+  stopList "spectre"
+  globalList "gnd!"
+  hierDelim "."
+  netlistDir "/home/ecelrc/students/kz5348/Analog_382m/Simulation/Transit_Frequency_Analysis/spectre/schematic/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "Analog_382m/Transit_Frequency_Analysis/schematic" "Transit_Frequency_Analysis" )
+ )
+( "Transit_Frequency_Analysis" "ihnl/cds0/map" )
+ )

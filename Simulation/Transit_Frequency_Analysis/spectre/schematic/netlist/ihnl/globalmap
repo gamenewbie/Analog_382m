@@ -1,0 +1,11 @@
+CADENCE IHNL11140
+$model
+Analog_382m/Transit_Frequency_Analysis/schematic Transit_Frequency_Analysis
+$endmodel
+$net
+gnd! 0
+$endnet
+$param
+L L
+vg vg
+$endparam

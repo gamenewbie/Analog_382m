@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Generated on: Nov 22 13:50:04 2026
+// Design library name: Analog_382m
+// Design cell name: Transit_Frequency_Analysis
+// Design view name: schematic
+simulator lang=spectre
+global 0

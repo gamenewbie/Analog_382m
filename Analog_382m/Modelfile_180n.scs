@@ -1,0 +1,79 @@
+
+model nch bsim3v3 type=n
++af      = 1              ef      = 1              kf      = 5e-29                      
++version = 3.1            tnom    = 27             tox     = 4e-9
++xj      = 1e-7           nch     = 2.3549e17      vth0    = 0.3662648
++k1      = 0.5802748      k2      = 3.124029e-3    k3      = 1e-3
++k3b     = 3.3886871      w0      = 1e-7           nlx     = 1.766159e-7
++dvt0w   = 0              dvt1w   = 0              dvt2w   = 0
++dvt0    = 1.2312416      dvt1    = 0.3849841      dvt2    = 0.0161351
++u0      = 265.1889031    ua      = -1.506402e-9   ub      = 2.489393e-18
++uc      = 5.621884e-11   vsat    = 1.017932e5     a0      = 2
++ags     = 0.4543117      b0      = 3.433489e-7    b1      = 5e-6
++keta    = -0.0127714     a1      = 1.158074e-3    a2      = 1
++rdsw    = 136.5582806    prwg    = 0.5            prwb    = -0.2
++wr      = 1              wint    = 0              lint    = 1.702415e-8
++xl      = 0              xw      = -1e-8          dwg     = -4.211574e-9
++dwb     = 1.107719e-8    voff    = -0.0948017     nfactor = 2.1860065
++cit     = 0              cdsc    = 2.4e-4         cdscd   = 0
++cdscb   = 0              eta0    = 3.335516e-3    etab    = 6.028975e-5
++dsub    = 0.0214781      pclm    = 0.6602119      pdiblc1 = 0.1605325
++pdiblc2 = 3.287142e-3    pdiblcb = -0.1           drout   = 0.7917811
++pscbe1  = 6.420235e9     pscbe2  = 4.122516e-9    pvag    = 0.0347169
++delta   = 0.01           rsh     = 6.6            mobmod  = 1
++prt     = 0              ute     = -1.5           kt1     = -0.11
++kt1l    = 0              kt2     = 0.022          ua1     = 4.31e-9
++ub1     = -7.61e-18      uc1     = -5.6e-11       at      = 3.3e4
++wl      = 0              wln     = 1              ww      = 0
++wwn     = 1              wwl     = 0              ll      = 0
++lln     = 1              lw      = 0              lwn     = 1
++lwl     = 0              capmod  = 2              xpart   = 0.5
++cgdo    = 8.06e-10       cgso    = 8.06e-10       cgbo    = 1e-12
++cj      = 9.895609e-4    pb      = 0.8            mj      = 0.3736889
++cjsw    = 2.393608e-10   pbsw    = 0.8            mjsw    = 0.1537892
++cjswg   = 3.3e-10        pbswg   = 0.8            mjswg   = 0.1537892
++cf      = 0              pvth0   = -1.73163e-3    prdsw   = -1.4173554
++pk2     = 1.600729e-3    wketa   = 1.601517e-3    lketa   = -3.255127e-3
++pu0     = 5.2024473      pua     = 1.584315e-12   pub     = 7.446142e-25
++pvsat   = 1.686297e3     peta0   = 1.001594e-4    pketa   = -2.039532e-3  
++noimod  =4
+
+model pch bsim3v3 type=p
++af      = 1              ef      = 1              kf      = 1e-29
++version = 3.1            tnom    = 27             tox     = 4e-9
++xj      = 1e-7           nch     = 4.1589e17      vth0    = -0.3708038
++k1      = 0.5895473      k2      = 0.0235946      k3      = 0
++k3b     = 13.8642028     w0      = 1e-6           nlx     = 1.517201e-7
++dvt0w   = 0              dvt1w   = 0              dvt2w   = 0
++dvt0    = 0.7885088      dvt1    = 0.2564577      dvt2    = 0.1
++u0      = 103.0478426    ua      = 1.049312e-9    ub      = 2.545758e-21
++uc      = -1e-10         vsat    = 1.645114e5     a0      = 1.627879
++ags     = 0.3295499      b0      = 5.207699e-7    b1      = 1.370868e-6
++keta    = 0.0296157      a1      = 0.4449009      a2      = 0.3
++rdsw    = 306.5789827    prwg    = 0.5            prwb    = 0.5
++wr      = 1              wint    = 0              lint    = 2.761033e-8
++xl      = 0              xw      = -1e-8          dwg     = -2.433889e-8
++dwb     = -9.34648e-11   voff    = -0.0867009     nfactor = 2
++cit     = 0              cdsc    = 2.4e-4         cdscd   = 0
++cdscb   = 0              eta0    = 1.018318e-3    etab    = -3.206319e-4
++dsub    = 1.094521e-3    pclm    = 1.3281073      pdiblc1 = 2.394169e-3
++pdiblc2 = 3.255915e-6   pdiblcb = -1e-3          drout   = 0
++pscbe1  = 4.881933e10    pscbe2  = 5e-10          pvag    = 2.0932623
++delta   = 0.01           rsh     = 7.5            mobmod  = 1
++prt     = 0              ute     = -1.5           kt1     = -0.11
++kt1l    = 0              kt2     = 0.022          ua1     = 4.31e-9
++ub1     = -7.61e-18      uc1     = -5.6e-11       at      = 3.3e4
++wl      = 0              wln     = 1              ww      = 0
++wwn     = 1              wwl     = 0              ll      = 0
++lln     = 1              lw      = 0              lwn     = 1
++lwl     = 0              capmod  = 2              xpart   = 0.5
++cgdo    = 6.52e-10       cgso    = 6.52e-10       cgbo    = 1e-12
++cj      = 1.157423e-3    pb      = 0.8444261      mj      = 0.4063933
++cjsw    = 1.902456e-10   pbsw    = 0.8            mjsw    = 0.3550788
++cjswg   = 4.22e-10       pbswg   = 0.8            mjswg   = 0.3550788
++cf      = 0              pvth0   = 1.4398e-3      prdsw   = 0.5073407
++pk2     = 2.190431e-3    wketa   = 0.0442978      lketa   = -2.936093e-3
++pu0     = -0.9769623     pua     = -4.34529e-11   pub     = 1e-21
++pvsat   = -50            peta0   = 1.002762e-4    pketa   = -6.740436e-3 
++noimod  = 4
+

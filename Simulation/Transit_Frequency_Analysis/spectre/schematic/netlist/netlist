@@ -1,0 +1,11 @@
+
+// Library name: Analog_382m
+// Cell name: Transit_Frequency_Analysis
+// View name: schematic
+V3 (vdc net2) vsource dc=vg type=dc
+V4 (vdc net3) vsource dc=900.0m type=dc
+V2 (net1 0) vsource dc=vg type=dc
+V1 (vdc 0) vsource dc=1.8 type=dc
+V0 (vdc2 0) vsource dc=0.9V type=dc
+M0 (vdc2 net1 0 0) nch w=10u l=L
+M1 (net3 net2 vdc vdc) pch w=10u l=L
