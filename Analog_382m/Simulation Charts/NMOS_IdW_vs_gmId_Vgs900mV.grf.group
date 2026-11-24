@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--StateFileType saveLoadState-->
+<topLevel>
+    <SimpleProp Name="stateFileVersion" Value="@(#)$CDS: virtuoso version 6.1.8-64b 06/22/2022 16:25 (sjfhw316) $" Type="string" />
+    <SimpleProp Name="currentContext" Value="/home/ecelrc/students/mgc2897/simulation/Madison_two_stage_OTA/spectre/schematic/psf" Type="stringValue" />
+    <IndexedProp Name="resultsDirMappingList">
+        <SimpleProp Name="__resDirStr_0" Value="/home/ecelrc/students/mgc2897/simulation/Madison_two_stage_OTA/spectre/schematic/psf" Type="stringValue" />
+    </IndexedProp>
+    <IndexedProp Name="graphFileList">
+        <SimpleProp Value="NMOS_IdW_vs_gmId_Vgs900mV_0.grf" Type="stringValue" />
+    </IndexedProp>
+</topLevel>
